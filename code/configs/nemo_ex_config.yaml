@@ -15,7 +15,7 @@ model:
     trim_silence: True
     max_duration: 30
     shuffle: True
-    num_workers: 2
+    num_workers: 4
     pin_memory: true
     # tarred datasets
     is_tarred: false
@@ -31,7 +31,7 @@ model:
     labels: *labels
     batch_size: 32
     shuffle: False
-    num_workers: 2
+    num_workers: 4
     pin_memory: true
 
   preprocessor:
