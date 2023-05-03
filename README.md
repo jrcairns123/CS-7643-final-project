@@ -2,7 +2,7 @@
 
 Project problem area is Automatic Speech Recognition (ASR; i.e. speech-to-text). 
 
-Nvidia Neural Modules (NeMo) package was primarily used for modeling.
+Nvidia Neural Modules (NeMo) package was primarily used for modeling. People's Speech dataset was used, with data loaded in using HuggingFace datasets package.
 
 Example data files which the NeMo models/package could accept (given data is downloaded in specified locations on machine) may be seen in /data. Some example charts (e.g. learning curves) from training with the pre-trained conformer-transducer model may be seen in /data/conformer_transducer_small.
 
